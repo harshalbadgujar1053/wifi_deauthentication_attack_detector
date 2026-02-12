@@ -12,14 +12,14 @@ The system consists of two primary components: an **Attacker** node and a **Dete
 
 ## Hardware & Software
 ### Hardware
-**Detector:** ESP8266 NodeMCU CP2102 
-**Attacker:** ESP8266 NodeMCU V3 
-**Connectivity:** Micro USB Cables & Wi-Fi enabled mobile hotspot 
+* **Detector:** ESP8266 NodeMCU CP2102 
+* **Attacker:** ESP8266 NodeMCU V3 
+* **Connectivity:** Micro USB Cables & Wi-Fi enabled mobile hotspot 
 
 ### Software
-**Arduino IDE:** For coding and monitoring 
-**NodeMCU PyFlasher:** To flash custom attacker firmware 
-**Libraries:** `UniversalTelegramBot` and ESP8266 Board Package 
+* **Arduino IDE:** For coding and monitoring 
+* **NodeMCU PyFlasher:** To flash custom attacker firmware 
+* **Libraries:** `UniversalTelegramBot` and ESP8266 Board Package 
 
 ## How It Works
 1. **Initialization:** The detector connects to the assigned Wi-Fi and displays its local IP address.
